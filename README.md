@@ -23,7 +23,7 @@ This module supports the following SWR features:
 
 ```hcl
 module "swr" {
-  source = "path/to/terraform-huawei-swr"
+  source = "github.com/artifactsystems/terraform-huawei-swr?ref=v1.0.0"
 
   organization_name = "my-org"
 
@@ -42,7 +42,7 @@ module "swr" {
 
 ```hcl
 module "swr" {
-  source = "path/to/terraform-huawei-swr"
+  source = "github.com/artifactsystems/terraform-huawei-swr?ref=v1.0.0"
 
   create_organization = false
   organization_name  = "existing-org"
@@ -59,7 +59,7 @@ module "swr" {
 
 ```hcl
 module "swr" {
-  source = "path/to/terraform-huawei-swr"
+  source = "github.com/artifactsystems/terraform-huawei-swr?ref=v1.0.0"
 
   organization_name = "my-org"
 
@@ -92,7 +92,7 @@ Retention policies help automatically clean up old container images to save stor
 
 ```hcl
 module "swr" {
-  source = "path/to/terraform-huawei-swr"
+  source = "github.com/artifactsystems/terraform-huawei-swr?ref=v1.0.0"
 
   organization_name = "my-org"
 

@@ -12,8 +12,8 @@ locals {
 
   tags = {
     Example    = local.name
-    GithubRepo = "terraform-huaweicloud-swr"
-    GithubOrg  = "terraform-huaweicloud-modules"
+    GithubRepo = "terraform-huawei-swr"
+    GithubOrg  = "artifactsystems"
   }
 }
 
