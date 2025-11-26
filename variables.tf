@@ -24,8 +24,8 @@ variable "repositories" {
     description = optional(string)
     category    = optional(string)
     retention_policy = optional(object({
-      type    = string          # date_rule or tag_rule
-      number  = number          # days for date_rule, count for tag_rule
+      type   = string # date_rule or tag_rule
+      number = number # days for date_rule, count for tag_rule
       tag_selectors = optional(list(object({
         kind    = optional(string) # label or regexp
         pattern = string
@@ -47,4 +47,3 @@ variable "organization_timeouts" {
   })
   default = {}
 }
-

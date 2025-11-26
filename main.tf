@@ -63,4 +63,3 @@ resource "huaweicloud_swr_image_retention_policy" "this" {
 
   depends_on = [huaweicloud_swr_repository.this]
 }
-

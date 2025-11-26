@@ -29,4 +29,3 @@ output "repositories_with_retention" {
     for k, v in module.swr.repository_retention_policies : k
   ]
 }
-

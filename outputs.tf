@@ -38,12 +38,12 @@ output "repository_details" {
   description = "Map of repository details"
   value = {
     for k, v in huaweicloud_swr_repository.this : k => {
-      id           = v.id
+      id            = v.id
       repository_id = v.repository_id
-      path         = v.path
+      path          = v.path
       internal_path = v.internal_path
-      num_images   = v.num_images
-      size         = v.size
+      num_images    = v.num_images
+      size          = v.size
     }
   }
 }
@@ -72,4 +72,3 @@ output "repository_retention_policies" {
     for k, v in huaweicloud_swr_image_retention_policy.this : k => v.id
   }
 }
-

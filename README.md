@@ -221,4 +221,3 @@ The following features are **not yet implemented** but are planned for future re
 - **Public vs Private Repositories**: Public repositories can be pulled by anyone without authentication, but only authorized users can push images. Private repositories require authentication for both pull and push operations.
 - **Retention Policies**: Retention policies help manage storage costs by automatically deleting old images. Use `tag_selectors` to protect important tags (like `latest` or version tags) from deletion.
 - **Organization Names**: Organization names must be globally unique across all Huawei Cloud accounts.
-
